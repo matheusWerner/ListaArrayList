@@ -34,7 +34,7 @@ public class Ex7 {
         String maiorNome = "";
         for (int i = 0; i < nomes.size(); i++) {
             
-            if (nomes){
+            
             
            
         }
@@ -44,4 +44,3 @@ public class Ex7 {
     
 }
 
-}
