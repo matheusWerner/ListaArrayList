@@ -25,26 +25,30 @@ public class Ex4 {
         
     }
    JOptionPane.showMessageDialog(null, olha);
-    
+   
+   
+    numeros.remove(3);
     String numero1 = "";
     for (int i = 0; i < numeros.size(); i++) {
    
         numero1 += numeros.get(i) + "\n";
         
     }
-    numeros.remove(3);
+    
     JOptionPane.showMessageDialog(null, numero1);
     
     
     
+    numeros.remove(4);
     String numero2 = "";
     for (int i = 0; i < numeros.size(); i++) {
    
         numero2 += numeros.get(i) + "\n";
         
     }
-    numeros.remove(4);
-    JOptionPane.showMessageDialog(null, numero1);
+    
+    JOptionPane.showMessageDialog(null,"numeros sem a posicao 4 e posicao 5" + numero2 + "\nquantidade de numeros que restaram: " + numeros.size());
+    
     
     
     
